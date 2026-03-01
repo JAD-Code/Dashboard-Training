@@ -4,6 +4,7 @@ import { ChartAreaInteractive } from "@/components/ChartAreaInteractive";
 import { ChartLineLabel } from "@/components/ChartLineLabel";
 import { ChartRadarLegend } from "@/components/ChartRadarLegend";
 import CardList from "@/components/CardList";
+import ToDoList from "@/components/ToDoList";
 
 export default function Home() {
   return (
@@ -21,7 +22,9 @@ export default function Home() {
         <div className="bg-primary-foreground rounded-lg p-4 ">
           <ChartRadarLegend />
         </div>
-        <div className="bg-primary-foreground rounded-lg p-4">Test</div>
+        <div className="bg-primary-foreground rounded-lg p-4">
+          <ToDoList />
+        </div>
         <div className="bg-primary-foreground rounded-lg p-4 lg:col-span-2">
           <ChartLineLabel />
         </div>
